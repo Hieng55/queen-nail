@@ -1,0 +1,20 @@
+{
+  "name": "queen-nails-spa",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "lucide": "^1.65.0",
+    "morphicons": "^2.0.2",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.64.1"
+  }
+}
