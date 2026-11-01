@@ -1,27 +1,28 @@
 "use client";
 
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
 const leftNavigation = [
-  { label: "Home", href: "#home" },
-  { label: "About Us", href: "#about" },
-  { label: "Services", href: "#services" },
+  { label: "Home", href: "/" },
+  { label: "About Us", href: "/about" },
+  { label: "Services", href: "/services" },
 ];
 
 const rightNavigation = [
-  { label: "Gallery", href: "#gallery" },
+  { label: "Gallery", href: "/#gallery" },
   {
     label: "Booking",
     href: "https://www.lldtek.org/salon/appt/VGtOZk1USTFNRE09",
     external: true,
   },
-  { label: "Contact Us", href: "#contact" },
+  { label: "Contact Us", href: "/contact" },
 ];
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [activeLink, setActiveLink] = useState("#home");
+  const pathname = usePathname();
 
   useEffect(() => {
     const closeOnEscape = (event) => {
@@ -42,7 +43,7 @@ export default function Header() {
       </div>
 
       <nav className="navbar" aria-label="Main navigation">
-        <a className="brand" href="#home" aria-label="Queen Nails Spa — Home" onClick={() => setActiveLink("#home")}>
+        <a className="brand" href="/" aria-label="Queen Nails Spa — Home">
           <Image src="/images/logo/logo (5).png" alt="Queen Nails Spa" width={923} height={665} priority />
         </a>
 
@@ -62,10 +63,9 @@ export default function Header() {
             {leftNavigation.map((item) => (
               <li key={item.href}>
                 <a
-                  className={activeLink === item.href ? "active" : undefined}
+                  className={pathname === item.href ? "active" : undefined}
                   href={item.href}
                   onClick={() => {
-                    setActiveLink(item.href);
                     setMenuOpen(false);
                   }}
                 >
@@ -79,12 +79,11 @@ export default function Header() {
               {rightNavigation.map((item) => (
                 <li key={item.href}>
                   <a
-                    className={activeLink === item.href ? "active" : undefined}
+                    className={pathname === item.href ? "active" : undefined}
                     href={item.href}
                     target={item.external ? "_blank" : undefined}
                     rel={item.external ? "noopener noreferrer" : undefined}
                     onClick={() => {
-                      setActiveLink(item.href);
                       setMenuOpen(false);
                     }}
                   >

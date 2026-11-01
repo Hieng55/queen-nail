@@ -1,11 +1,13 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
 
 const serviceGroups = [
   {
     id: "pedicure",
     label: "Pedicure",
+    illustration: "pedicure",
     note: "A considered collection of restorative foot rituals, finished with meticulous nail care.",
     featured: true,
     items: [
@@ -18,6 +20,7 @@ const serviceGroups = [
   {
     id: "manicure",
     label: "Manicure",
+    illustration: "manicure",
     note: "Polished essentials and modern enhancements, tailored to your natural nails and personal style.",
     sections: [
       { title: "Natural Nail Services", rows: [["Regular Manicure", "$32"], ["Gel Manicure", "$42"], ["Regular Polish — Hand & Toe", "$20"], ["Gel Polish — Hand & Toe", "$30"], ["Nail Cut", "$10"], ["Gel Polish / Dip Removal", "$10"], ["Paraffin Wax / Collagen Gloves", "$10"]] },
@@ -27,22 +30,42 @@ const serviceGroups = [
   {
     id: "kids",
     label: "Kids",
+    illustration: "kids",
     note: "A cheerful, gentle mini-service menu created especially for guests under 10.",
     rows: [["Kids Regular Manicure", "$18"], ["Kids Gel Manicure", "$28"], ["Kids Regular Polish — Hand", "$10"], ["Kids Gel Polish — Hand", "$20"], ["Kids Regular Pedicure", "$25"], ["Kids Gel Pedicure", "$35"]],
   },
   {
     id: "waxing",
     label: "Waxing",
+    illustration: "waxing",
     note: "Smooth, precise waxing services delivered with a gentle touch.",
     rows: [["Eyebrows", "$15"], ["Lip", "$8"], ["Chin", "$12"], ["Full Face", "$35"], ["Under Arms", "$25"], ["Half Arms", "$30"], ["Half Legs", "$45"]],
   },
   {
     id: "addons",
     label: "Add-ons",
+    illustration: "addons",
     note: "Finishing details to make your service unmistakably yours.",
     rows: [["Almond / Coffin Shape", "$5"], ["Stiletto Shape", "$8"], ["Extra Length", "$5"], ["French", "$10"], ["Ombre", "$20"], ["Metallic Chrome", "$12"], ["Cat Eye Colors", "$10"], ["Designs", "$10+"], ["More Than 3 Colors", "$5"], ["Gel Add-on", "+$15"]],
   },
 ];
+
+function ServiceIllustration({ type }) {
+  const images = {
+    pedicure: { src: "/images/services/pedicure.jpg", width: 1200, height: 1600 },
+    manicure: { src: "/images/services/manicure.jpg", width: 736, height: 1104 },
+    kids: { src: "/images/services/kids.jpg", width: 736, height: 1104 },
+    waxing: { src: "/images/services/waxing.jpg", width: 736, height: 1104 },
+    addons: { src: "/images/services/add-ons.jpg", width: 2477, height: 3715 },
+  };
+  const image = images[type];
+
+  return (
+    <div className="services__illustration" aria-hidden="true">
+      <Image src={image.src} alt="" width={image.width} height={image.height} sizes="(max-width: 820px) 90vw, (max-width: 1200px) 34vw, 390px" />
+    </div>
+  );
+}
 
 function PriceRows({ rows }) {
   return <div className="services__rows">{rows.map(([name, price]) => (
@@ -79,23 +102,28 @@ export default function ServicesSection() {
             <p>{group.note}</p>
           </div>
 
-          {group.featured && <div className="services__pedicure-grid">{group.items.map((item, index) => (
-            <article className="services__service-card" key={item.name}>
-              <span className="services__number">0{index + 1}</span>
-              <div className="services__service-title"><h4>{item.name}</h4><strong>{item.price}</strong></div>
-              <p>{item.copy}</p>
-            </article>
-          ))}</div>}
+          <div className="services__panel-content">
+            <ServiceIllustration type={group.illustration} />
+            <div className="services__menu-content">
+              {group.featured && <div className="services__pedicure-grid">{group.items.map((item, index) => (
+                <article className="services__service-card" key={item.name}>
+                  <span className="services__number">0{index + 1}</span>
+                  <div className="services__service-title"><h4>{item.name}</h4><strong>{item.price}</strong></div>
+                  <p>{item.copy}</p>
+                </article>
+              ))}</div>}
 
-          {group.sections && <div className="services__columns">{group.sections.map((section) => (
-            <div className="services__price-block" key={section.title}><h4>{section.title}</h4><PriceRows rows={section.rows} /></div>
-          ))}</div>}
+              {group.sections && <div className="services__columns">{group.sections.map((section) => (
+                <div className="services__price-block" key={section.title}><h4>{section.title}</h4><PriceRows rows={section.rows} /></div>
+              ))}</div>}
 
-          {group.rows && <div className="services__single-list"><PriceRows rows={group.rows} /></div>}
+              {group.rows && <div className="services__single-list"><PriceRows rows={group.rows} /></div>}
+            </div>
+          </div>
 
           <div className="services__footer">
             <span>Gel add-on to spa pedicure +$15</span>
-            <a href="#contact">Reserve your ritual <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6" /></svg></a>
+            <a href="/contact">Reserve your ritual <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6" /></svg></a>
           </div>
         </div>
       </div>
