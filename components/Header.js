@@ -13,7 +13,6 @@ const leftNavigation = [
 ];
 
 const rightNavigation = [
-  { label: "Gallery", href: "/#gallery" },
   {
     label: "Booking",
     href: "https://www.lldtek.org/salon/appt/VGtOZk1USTFNRE09",
@@ -51,7 +50,7 @@ export default function Header() {
 
       <nav className="navbar" aria-label="Main navigation">
         <a className="brand" href="/" aria-label="Queen Nails Spa — Home">
-          <Image src="/images/logo/logo (5).png" alt="Queen Nails Spa" width={923} height={665} priority />
+          <Image src="/images/logo/logo (5).png" alt="Queen Nails Spa" width={465} height={350} priority />
         </a>
 
         <button

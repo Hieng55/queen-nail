@@ -1,6 +1,8 @@
 import Image from "next/image";
 
-export default function AboutSection() {
+export default function AboutSection({ asPageHeading = false }) {
+  const Heading = asPageHeading ? "h1" : "h2";
+
   return (
     <section className="about" id="about" aria-labelledby="about-title">
       <div className="about__inner">
@@ -29,7 +31,7 @@ export default function AboutSection() {
 
         <div className="about__content">
           <p className="about__eyebrow">Our Story</p>
-          <h2 id="about-title">Beauty should feel <em>personal.</em></h2>
+          <Heading id="about-title">Beauty should feel <em>personal.</em></Heading>
           <div className="about__rule" aria-hidden="true"><span /></div>
           <p className="about__lead">
             Queen Nails Spa brings thoughtful nail care and refined artistry together in a calm, welcoming setting.

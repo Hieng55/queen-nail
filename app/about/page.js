@@ -3,10 +3,10 @@ import AboutSection from "../../components/AboutSection";
 import Footer from "../../components/Footer";
 
 export const metadata = {
-  title: "About Us | Queen Nails Spa",
-  description: "Discover the story and thoughtful approach behind Queen Nails Spa.",
+  title: "About Our Waxhaw Nail Salon",
+  description: "Meet Queen Nails Spa and discover our thoughtful approach to refined nail care and beauty services in Waxhaw, NC.",
 };
 
 export default function AboutPage() {
-  return <><Header /><main><AboutSection /></main><Footer /></>;
+  return <><Header /><main><AboutSection asPageHeading /></main><Footer /></>;
 }

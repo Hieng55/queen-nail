@@ -56,7 +56,7 @@ function ServiceIllustration({ type }) {
     manicure: { src: "/images/services/manicure.jpg", width: 736, height: 1104 },
     kids: { src: "/images/services/kids.jpg", width: 736, height: 1104 },
     waxing: { src: "/images/services/waxing.jpg", width: 736, height: 1104 },
-    addons: { src: "/images/services/add-ons.jpg", width: 2477, height: 3715 },
+    addons: { src: "/images/services/add-ons.jpg", width: 1200, height: 1800 },
   };
   const image = images[type];
 
@@ -73,9 +73,10 @@ function PriceRows({ rows }) {
   ))}</div>;
 }
 
-export default function ServicesSection() {
+export default function ServicesSection({ asPageHeading = false }) {
   const [active, setActive] = useState("pedicure");
   const group = serviceGroups.find((item) => item.id === active);
+  const Heading = asPageHeading ? "h1" : "h2";
 
   return (
     <section className="services" id="services" aria-labelledby="services-title">
@@ -84,7 +85,7 @@ export default function ServicesSection() {
       <div className="services__inner">
         <header className="services__header">
           <p className="services__eyebrow">The Queen Nails Menu</p>
-          <h2 id="services-title">Rituals of <em>care & beauty.</em></h2>
+          <Heading id="services-title">Rituals of <em>care & beauty.</em></Heading>
           <p>Thoughtfully designed treatments, refined techniques and beautiful results—select the experience that feels right for you.</p>
         </header>
 

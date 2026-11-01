@@ -5,14 +5,16 @@ function Arrow() {
   return <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6" /></svg>;
 }
 
-export default function ContactSection() {
+export default function ContactSection({ asPageHeading = false }) {
+  const Heading = asPageHeading ? "h1" : "h2";
+
   return (
     <section className="contact" id="contact" aria-labelledby="contact-title">
       <div className="contact__glow" aria-hidden="true" />
       <div className="contact__inner">
         <header className="contact__header">
           <p className="contact__eyebrow">Contact Us</p>
-          <h2 id="contact-title">Your next ritual <em>starts here.</em></h2>
+          <Heading id="contact-title">Your next ritual <em>starts here.</em></Heading>
           <p>Reserve online, call the salon, or stop by Queen Nails in Waxhaw.</p>
         </header>
 

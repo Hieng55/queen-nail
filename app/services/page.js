@@ -3,10 +3,10 @@ import ServicesSection from "../../components/ServicesSection";
 import Footer from "../../components/Footer";
 
 export const metadata = {
-  title: "Services | Queen Nails Spa",
-  description: "Explore Queen Nails Spa pedicure, manicure, kids, waxing, and add-on services.",
+  title: "Manicure, Pedicure & Waxing Services",
+  description: "Explore manicure, spa pedicure, kids, waxing, nail enhancement, and add-on services at Queen Nails Spa in Waxhaw, NC.",
 };
 
 export default function ServicesPage() {
-  return <><Header /><main><ServicesSection /></main><Footer /></>;
+  return <><Header /><main><ServicesSection asPageHeading /></main><Footer /></>;
 }

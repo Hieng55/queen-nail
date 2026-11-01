@@ -16,7 +16,6 @@ export default function HomePage() {
         <ServicesSection />
         <CustomerReviewsSection />
         <ContactSection />
-        <div id="gallery" />
       </main>
       <Footer />
     </>

@@ -21,7 +21,7 @@ export default function Footer() {
         <div className="site-footer__main">
           <div className="site-footer__brand">
             <a href="/" aria-label="Queen Nails Spa — Home">
-              <Image src="/images/logo/logo (5).png" alt="Queen Nails Spa" width={923} height={665} />
+              <Image src="/images/logo/logo (5).png" alt="Queen Nails Spa" width={465} height={350} />
             </a>
             <p>Thoughtful nail care, refined artistry, and time made just for you.</p>
             <div className="site-footer__socials">

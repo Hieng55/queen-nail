@@ -3,10 +3,10 @@ import CustomerReviewsSection from "../../components/CustomerReviewsSection";
 import Footer from "../../components/Footer";
 
 export const metadata = {
-  title: "Customer Reviews | Queen Nails Spa",
-  description: "Read public customer review highlights for Queen Nails Spa in Waxhaw.",
+  title: "Customer Reviews",
+  description: "Read customer review highlights and discover guest experiences at Queen Nails Spa in Waxhaw, North Carolina.",
 };
 
 export default function ReviewsPage() {
-  return <><Header /><main><CustomerReviewsSection /></main><Footer /></>;
+  return <><Header /><main><CustomerReviewsSection asPageHeading /></main><Footer /></>;
 }

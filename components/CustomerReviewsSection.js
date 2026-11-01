@@ -21,12 +21,13 @@ function getPositions(total, visible) {
   return [...new Set(positions)];
 }
 
-export default function CustomerReviewsSection() {
+export default function CustomerReviewsSection({ asPageHeading = false }) {
   const [visible, setVisible] = useState(3);
   const [active, setActive] = useState(0);
   const [paused, setPaused] = useState(false);
   const positions = useMemo(() => getPositions(reviews.length, visible), [visible]);
   const activePage = Math.max(0, positions.indexOf(active));
+  const Heading = asPageHeading ? "h1" : "h2";
 
   useEffect(() => {
     const updateVisible = () => setVisible(window.innerWidth <= 620 ? 1 : window.innerWidth <= 960 ? 2 : 3);
@@ -58,7 +59,7 @@ export default function CustomerReviewsSection() {
       <div className="reviews__glow" aria-hidden="true" />
       <div className="reviews__inner">
         <header className="reviews__header">
-          <div><p className="reviews__eyebrow">Customer Reviews</p><h2 id="reviews-title">Kind words from <em>our guests.</em></h2></div>
+          <div><p className="reviews__eyebrow">Customer Reviews</p><Heading id="reviews-title">Kind words from <em>our guests.</em></Heading></div>
           <div className="reviews__summary" aria-label="4.3 out of 5 from 152 public reviews"><strong>4.3</strong><div><span aria-hidden="true">★★★★☆</span><p>152 public reviews</p></div></div>
         </header>
 

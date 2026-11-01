@@ -26,7 +26,7 @@ export default function ContactBar() {
     <section className="contact-bar" aria-label="Contact and social links">
       <div className="contact-bar__inner">
         <div className="contact-bar__details">
-          <a className="contact-item contact-item--phone" href="tel:+17042434698">
+          <a className="contact-item" href="tel:+17042434698">
             <span className="contact-item__icon contact-item__icon--line">
               <MorphIcon
                 icon={Phone}
