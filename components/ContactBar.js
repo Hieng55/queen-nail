@@ -14,6 +14,11 @@ const brandLinks = [
     href: "https://www.instagram.com/bareluxenailspa_waxhawnc/",
     icon: "/icons/brands/instagram.svg",
   },
+  {
+    label: "Google Maps",
+    href: "https://maps.google.com/?cid=12497902247688058167",
+    icon: "/icons/brands/google-maps.svg",
+  },
 ];
 
 export default function ContactBar() {
@@ -38,22 +43,6 @@ export default function ContactBar() {
             </span>
           </a>
 
-          <span className="contact-bar__divider" aria-hidden="true" />
-
-          <a
-            className="contact-item"
-            href="https://maps.google.com/?cid=12497902247688058167"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <span className="contact-item__icon contact-item__icon--brand">
-              <img src="/icons/brands/google-maps.svg" alt="" />
-            </span>
-            <span>
-              <small>Visit Queen Nails</small>
-              <strong>Open in Google Maps</strong>
-            </span>
-          </a>
         </div>
 
         <div className="contact-bar__socials">

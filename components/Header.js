@@ -1,6 +1,8 @@
 "use client";
 
 import Image from "next/image";
+import { MorphIcon } from "morphicons/react";
+import { Menu, X } from "lucide";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
@@ -32,6 +34,11 @@ export default function Header() {
     return () => window.removeEventListener("keydown", closeOnEscape);
   }, []);
 
+  useEffect(() => {
+    document.body.classList.toggle("mobile-menu-open", menuOpen);
+    return () => document.body.classList.remove("mobile-menu-open");
+  }, [menuOpen]);
+
   return (
     <header className="site-header" id="home">
       <div className="announcement">
@@ -55,7 +62,7 @@ export default function Header() {
           aria-label={menuOpen ? "Close menu" : "Open menu"}
           onClick={() => setMenuOpen((current) => !current)}
         >
-          <span /><span /><span />
+          <MorphIcon icon={menuOpen ? X : Menu} size={22} color="currentColor" strokeWidth={1.6} spring="bouncy" reducedMotion="user" label={menuOpen ? "Close menu" : "Open menu"} />
         </button>
 
         <div className={`nav-panel${menuOpen ? " open" : ""}`} id="main-menu">

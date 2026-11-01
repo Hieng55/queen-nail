@@ -1,5 +1,6 @@
 import { Forum, Jost } from "next/font/google";
 import "./globals.css";
+import MobileAppNav from "../components/MobileAppNav";
 
 const jost = Jost({
   subsets: ["latin"],
@@ -22,7 +23,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${jost.variable} ${forum.variable}`}>
-      <body>{children}</body>
+      <body>{children}<MobileAppNav /></body>
     </html>
   );
 }
