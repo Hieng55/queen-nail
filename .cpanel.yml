@@ -1,9 +1,6 @@
 ---
 deployment:
   tasks:
-    - export REPOPATH=/home/queennai/repositories/queen-nail
-    - export DEPLOYPATH=/home/queennai/public_html
+    - export DEPLOYPATH=/home/queennai/public_html/
     - /bin/mkdir -p $DEPLOYPATH
-    - cd $REPOPATH && /usr/bin/env npm ci
-    - cd $REPOPATH && /usr/bin/env npm run build
-    - /bin/cp -a $REPOPATH/out/. $DEPLOYPATH/
+    - /bin/cp -R out/. $DEPLOYPATH

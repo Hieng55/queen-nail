@@ -1,0 +1,47 @@
+1:"$Sreact.fragment"
+2:"/_next/static/chunks/0y97v6iji5fw8.js"
+3:"/_next/static/chunks/3o_egwd_81-_x.js"
+4:I[39756,["$2","$3"],"default"]
+5:I[37457,["$2","$3"],"default"]
+6:I[95647,["$2","$3"],"default"]
+d:"/_next/static/chunks/3la83sycaet2x.js"
+e:I[25954,["$2","$3","$d"],"default"]
+f:I[81697,["$2","$3","$d"],"default"]
+10:I[5500,["$2","$3","$d"],"Image"]
+19:"ViewportBoundary"
+1a:I[97367,["$2","$3"],"$19"]
+1b:"MetadataBoundary"
+1c:I[97367,["$2","$3"],"$1b"]
+1d:"$Sreact.suspense"
+:HL["/_next/static/chunks/1lns25866wg45.css","style"]
+:HL["/icons/brands/facebook.svg","image"]
+8:X
+b:X
+b:C
+c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[[["$","$Le",null,{}],["$","main",null,{"children":["$","$Lf",null,{"asPageHeading":true}]}],["$","footer",null,{"className":"site-footer","children":["$","div",null,{"className":"site-footer__inner","children":[["$","div",null,{"className":"site-footer__cta","children":[["$","div",null,{"children":[["$","p",null,{"children":"The finishing touch"}],["$","h2",null,{"children":"Ready for your next set?"}]]}],["$","a",null,{"href":"https://www.lldtek.org/salon/appt/VGtOZk1USTFNRE09","target":"_blank","rel":"noopener noreferrer","children":["Reserve your ritual ",["$","svg",null,{"viewBox":"0 0 24 24","aria-hidden":"true","children":["$","path",null,{"d":"M5 12h13M13 6l6 6-6 6"}]}]]}]]}],["$","div",null,{"className":"site-footer__main","children":[["$","div",null,{"className":"site-footer__brand","children":[["$","a",null,{"href":"/","aria-label":"Queen Nails Spa — Home","children":["$","$L10",null,{"src":"/images/logo/logo (5).png","alt":"Queen Nails Spa","width":465,"height":350}]}],["$","p",null,{"children":"Thoughtful nail care, refined artistry, and time made just for you."}],["$","div",null,{"className":"site-footer__socials","children":[["$","a",null,{"href":"https://www.facebook.com/queennailswaxhaw/","target":"_blank","rel":"noopener noreferrer","aria-label":"Facebook","children":["$","img",null,{"src":"/icons/brands/facebook.svg","alt":""}]}],["$","a",null,{"href":"https://www.instagram.com/bareluxenailspa_waxhawnc/","target":"_blank","rel":"noopener noreferrer","aria-label":"Instagram","children":"$L11"}],"$L12"]}]]}],"$L13","$L14"]}],"$L15"]}]}]],["$L16"],"$L17"]}],"p":"$@18","v":null,"s":"$8"}}]]
+9:[["children",{"s":"reviews","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","template":["$","$L5",null,{}]}]]}],"p":"$@a","v":"$b","s":"$8"},"c":"$Qc"}]]
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1lns25866wg45.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/0y97v6iji5fw8.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/3o_egwd_81-_x.js","async":true}]],["$","html",null,{"lang":"en","className":"LcmucW_variable wXmNBW_variable","children":["$","body",null,{"children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"NailSalon\",\"name\":\"Queen Nails Spa\",\"description\":\"A refined nail salon offering manicures, spa pedicures, waxing, and nail enhancements in Waxhaw, North Carolina.\",\"telephone\":\"+1-704-243-4698\",\"priceRange\":\"$$\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"3905 Providence Road South, Suite D\",\"addressLocality\":\"Waxhaw\",\"addressRegion\":\"NC\",\"postalCode\":\"28173\",\"addressCountry\":\"US\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\"],\"opens\":\"09:30\",\"closes\":\"19:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Sunday\",\"opens\":\"10:30\",\"closes\":\"17:00\"}],\"sameAs\":[\"https://www.facebook.com/queennailswaxhaw/\",\"https://www.instagram.com/bareluxenailspa_waxhawnc/\"]}"}}],["$","$L4",null,{"parallelRouterKey":"children","template":["$","$L5",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}],["$","$L6",null,{}]]}]}]]}],"p":"$@7","v":null,"s":"$8"},"c":"$Q9"},"h":{"r":["$","$1","h",{"children":[null,["$","$L1a",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L1c",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1d",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Customer Reviews | Queen Nails Spa"}],["$","meta","1",{"name":"description","content":"Read customer review highlights and discover guest experiences at Queen Nails Spa in Waxhaw, North Carolina."}],["$","meta","2",{"name":"application-name","content":"Queen Nails Spa"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","4",{"name":"keywords","content":"nail salon Waxhaw NC,manicure Waxhaw,pedicure Waxhaw,nail spa Waxhaw,waxing Waxhaw NC,Queen Nails Spa"}],["$","meta","5",{"name":"robots","content":"index, follow"}],["$","meta","6",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","meta","7",{"name":"category","content":"beauty"}],["$","meta","8",{"name":"format-detection","content":"telephone=no, address=no, email=no"}],["$","meta","9",{"property":"og:title","content":"Luxury Nail Salon in Waxhaw, NC | Queen Nails Spa"}],["$","meta","10",{"property":"og:description","content":"Refined manicures, spa pedicures, waxing, and thoughtful nail care in Waxhaw, North Carolina."}],["$","meta","11",{"property":"og:site_name","content":"Queen Nails Spa"}],["$","meta","12",{"property":"og:locale","content":"en_US"}],"$L1e","$L1f","$L20","$L21"]}]}],null]}],"$L22"]}],"p":"$@23","v":null,"s":"$8"}},"a":"$@24","u":"$@25","b":"djesevba5eaFJnpGfyXn3"}
+26:I[97367,["$2","$3"],"OutletBoundary"]
+:HL["/icons/brands/instagram.svg","image"]
+:HL["/icons/brands/google-maps.svg","image"]
+11:["$","img",null,{"src":"/icons/brands/instagram.svg","alt":""}]
+12:["$","a",null,{"href":"https://maps.google.com/?cid=12497902247688058167","target":"_blank","rel":"noopener noreferrer","aria-label":"Google Maps","children":["$","img",null,{"src":"/icons/brands/google-maps.svg","alt":""}]}]
+13:["$","nav",null,{"className":"site-footer__nav","aria-label":"Footer navigation","children":[["$","p",null,{"children":"Explore"}],["$","div",null,{"children":[["$","a",null,{"href":"/","children":"Home"}],["$","a",null,{"href":"/about","children":"About Us"}],["$","a",null,{"href":"/services","children":"Services"}],["$","a",null,{"href":"/reviews","children":"Reviews"}],["$","a",null,{"href":"/contact","children":"Contact"}]]}]]}]
+14:["$","div",null,{"className":"site-footer__visit","children":[["$","p",null,{"children":"Visit Queen Nails"}],["$","address",null,{"children":["3905 Providence Road South",["$","br",null,{}],"Suite D, Waxhaw, NC 28173"]}],["$","a",null,{"href":"tel:+17042434698","children":"(704) 243-4698"}],["$","small",null,{"children":["Tuesday – Saturday: 9:30 AM – 7 PM",["$","br",null,{}],"Sunday: 10:30 AM – 5 PM"]}]]}]
+15:["$","div",null,{"className":"site-footer__bottom","children":[["$","p",null,{"children":"© 2026 Queen Nails Spa. All rights reserved."}],["$","a",null,{"href":"#home","children":["Back to top ",["$","span",null,{"aria-hidden":"true","children":"↑"}]]}]]}]
+16:["$","script","script-0",{"src":"/_next/static/chunks/3la83sycaet2x.js","async":true}]
+17:["$","$L26",null,{"children":["$","$1d",null,{"name":"Next.MetadataOutlet","children":"$@27"}]}]
+1e:["$","meta","13",{"property":"og:type","content":"website"}]
+1f:["$","meta","14",{"name":"twitter:card","content":"summary"}]
+20:["$","meta","15",{"name":"twitter:title","content":"Queen Nails Spa | Waxhaw, NC"}]
+21:["$","meta","16",{"name":"twitter:description","content":"Refined nail care and spa rituals in Waxhaw, North Carolina."}]
+22:["$","meta",null,{"name":"next-size-adjust","content":""}]
+8:300
+27:null
+25:true
+8:C
+24:0
+a:"$undefined"
+7:"$undefined"
+23:"$undefined"
+18:"$undefined"
