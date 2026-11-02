@@ -10,12 +10,13 @@ const leftNavigation = [
   { label: "Home", href: "/" },
   { label: "About Us", href: "/about" },
   { label: "Services", href: "/services" },
+  { label: "Gallery", href: "/gallery" },
 ];
 
 const rightNavigation = [
   {
     label: "Booking",
-    href: "https://www.lldtek.org/salon/appt/VGtOZk1USTFNRE09",
+    href: "https://book.gocheckin.net/v3/nails/bare-luxe-nail-spa-21632/choose-service?key=8UXEgGI3-bR-PqpMeHF_co-93",
     external: true,
   },
   { label: "Contact Us", href: "/contact" },

@@ -1,3 +1,5 @@
 User-Agent: *
 Allow: /
 
+Host: https://queennailswaxhaw.com
+Sitemap: https://queennailswaxhaw.com/sitemap.xml

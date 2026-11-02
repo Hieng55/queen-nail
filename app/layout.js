@@ -1,6 +1,7 @@
 import { Forum, Jost } from "next/font/google";
 import "./globals.css";
 import MobileAppNav from "../components/MobileAppNav";
+import { business, siteUrl } from "../lib/site";
 
 const jost = Jost({
   subsets: ["latin"],
@@ -16,6 +17,7 @@ const forum = Forum({
 });
 
 export const metadata = {
+  metadataBase: new URL(siteUrl),
   title: {
     default: "Luxury Nail Salon in Waxhaw, NC | Queen Nails Spa",
     template: "%s | Queen Nails Spa",
@@ -23,15 +25,8 @@ export const metadata = {
   description:
     "Discover refined manicures, spa pedicures, waxing, and nail care at Queen Nails Spa in Waxhaw, North Carolina.",
   applicationName: "Queen Nails Spa",
-  keywords: [
-    "nail salon Waxhaw NC",
-    "manicure Waxhaw",
-    "pedicure Waxhaw",
-    "nail spa Waxhaw",
-    "waxing Waxhaw NC",
-    "Queen Nails Spa",
-  ],
   category: "beauty",
+  alternates: { canonical: "/" },
   robots: {
     index: true,
     follow: true,
@@ -50,9 +45,16 @@ export const metadata = {
     title: "Luxury Nail Salon in Waxhaw, NC | Queen Nails Spa",
     description:
       "Refined manicures, spa pedicures, waxing, and thoughtful nail care in Waxhaw, North Carolina.",
+    url: "/",
+    images: [{
+      url: "/images/about-us/woman-showing-floral-manicure-with-rose-nail-art-garden.jpg",
+      width: 1200,
+      height: 800,
+      alt: "Floral manicure by Queen Nails Spa in Waxhaw, North Carolina",
+    }],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "Queen Nails Spa | Waxhaw, NC",
     description: "Refined nail care and spa rituals in Waxhaw, North Carolina.",
   },
@@ -66,18 +68,19 @@ export const metadata = {
 const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "NailSalon",
-  name: "Queen Nails Spa",
+  "@id": `${siteUrl}/#nail-salon`,
+  name: business.name,
+  url: siteUrl,
+  image: `${siteUrl}/images/about-us/woman-showing-floral-manicure-with-rose-nail-art-garden.jpg`,
   description: "A refined nail salon offering manicures, spa pedicures, waxing, and nail enhancements in Waxhaw, North Carolina.",
-  telephone: "+1-704-243-4698",
+  telephone: business.telephone,
   priceRange: "$$",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "3905 Providence Road South, Suite D",
-    addressLocality: "Waxhaw",
-    addressRegion: "NC",
-    postalCode: "28173",
-    addressCountry: "US",
+    ...business.address,
   },
+  areaServed: { "@type": "City", name: "Waxhaw, North Carolina" },
+  hasMap: "https://maps.google.com/?cid=12497902247688058167",
   openingHoursSpecification: [
     {
       "@type": "OpeningHoursSpecification",

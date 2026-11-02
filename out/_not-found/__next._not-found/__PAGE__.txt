@@ -1,34 +1,45 @@
 1:"$Sreact.fragment"
-2:"/_next/static/chunks/0y97v6iji5fw8.js"
-3:"/_next/static/chunks/3o_egwd_81-_x.js"
-4:I[39756,["$2","$3"],"default"]
-5:I[37457,["$2","$3"],"default"]
-6:I[95647,["$2","$3"],"default"]
-d:I[97367,["$2","$3"],"OutletBoundary"]
-e:"$Sreact.suspense"
-11:"ViewportBoundary"
-12:I[97367,["$2","$3"],"$11"]
-13:"MetadataBoundary"
-14:I[97367,["$2","$3"],"$13"]
-:HL["/_next/static/chunks/1lns25866wg45.css","style"]
-8:X
-b:X
-b:C
-c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":"$0:t:t:d:r:props:children:1:props:children:props:children:1:props:notFound:0:1:props:style","children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":"$0:t:t:d:r:props:children:1:props:children:props:children:1:props:notFound:0:1:props:children:props:children:1:props:style","children":404}],["$","div",null,{"style":"$0:t:t:d:r:props:children:1:props:children:props:children:1:props:notFound:0:1:props:children:props:children:2:props:style","children":["$","h2",null,{"style":"$0:t:t:d:r:props:children:1:props:children:props:children:1:props:notFound:0:1:props:children:props:children:2:props:children:props:style","children":"This page could not be found."}]}]]}]}]],null,["$","$Ld",null,{"children":["$","$e",null,{"name":"Next.MetadataOutlet","children":"$@f"}]}]]}],"p":"$@10","v":null,"s":"$8"}}]]
-9:[["children",{"s":"/_not-found","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","template":["$","$L5",null,{}]}]]}],"p":"$@a","v":"$b","s":"$8"},"c":"$Qc"}]]
-0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1lns25866wg45.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/0y97v6iji5fw8.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/3o_egwd_81-_x.js","async":true}]],["$","html",null,{"lang":"en","className":"LcmucW_variable wXmNBW_variable","children":["$","body",null,{"children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"NailSalon\",\"name\":\"Queen Nails Spa\",\"description\":\"A refined nail salon offering manicures, spa pedicures, waxing, and nail enhancements in Waxhaw, North Carolina.\",\"telephone\":\"+1-704-243-4698\",\"priceRange\":\"$$\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"3905 Providence Road South, Suite D\",\"addressLocality\":\"Waxhaw\",\"addressRegion\":\"NC\",\"postalCode\":\"28173\",\"addressCountry\":\"US\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\"],\"opens\":\"09:30\",\"closes\":\"19:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Sunday\",\"opens\":\"10:30\",\"closes\":\"17:00\"}],\"sameAs\":[\"https://www.facebook.com/queennailswaxhaw/\",\"https://www.instagram.com/bareluxenailspa_waxhawnc/\"]}"}}],["$","$L4",null,{"parallelRouterKey":"children","template":["$","$L5",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}],["$","$L6",null,{}]]}]}]]}],"p":"$@7","v":null,"s":"$8"},"c":"$Q9"},"h":{"r":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L12",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L14",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$e",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Luxury Nail Salon in Waxhaw, NC | Queen Nails Spa"}],["$","meta","1",{"name":"description","content":"Discover refined manicures, spa pedicures, waxing, and nail care at Queen Nails Spa in Waxhaw, North Carolina."}],["$","meta","2",{"name":"application-name","content":"Queen Nails Spa"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","4",{"name":"keywords","content":"nail salon Waxhaw NC,manicure Waxhaw,pedicure Waxhaw,nail spa Waxhaw,waxing Waxhaw NC,Queen Nails Spa"}],["$","meta","5",{"name":"robots","content":"index, follow"}],["$","meta","6",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","meta","7",{"name":"category","content":"beauty"}],["$","meta","8",{"name":"format-detection","content":"telephone=no, address=no, email=no"}],["$","meta","9",{"property":"og:title","content":"Luxury Nail Salon in Waxhaw, NC | Queen Nails Spa"}],["$","meta","10",{"property":"og:description","content":"Refined manicures, spa pedicures, waxing, and thoughtful nail care in Waxhaw, North Carolina."}],["$","meta","11",{"property":"og:site_name","content":"Queen Nails Spa"}],"$L15","$L16","$L17","$L18","$L19"]}]}],null]}],"$L1a"]}],"p":"$@1b","v":null,"s":"$8"}},"a":"$@1c","u":"$@1d","b":"djesevba5eaFJnpGfyXn3"}
-f:null
-15:["$","meta","12",{"property":"og:locale","content":"en_US"}]
-16:["$","meta","13",{"property":"og:type","content":"website"}]
-17:["$","meta","14",{"name":"twitter:card","content":"summary"}]
-18:["$","meta","15",{"name":"twitter:title","content":"Queen Nails Spa | Waxhaw, NC"}]
-19:["$","meta","16",{"name":"twitter:description","content":"Refined nail care and spa rituals in Waxhaw, North Carolina."}]
-1a:["$","meta",null,{"name":"next-size-adjust","content":""}]
-8:300
-1d:true
-8:C
-1c:0
-a:"$undefined"
-7:"$undefined"
-1b:"$undefined"
-10:"$undefined"
+3:"/_next/static/chunks/0y97v6iji5fw8.js"
+4:"/_next/static/chunks/0byejz0vaftby.js"
+5:I[39756,["$3","$4"],"default"]
+6:I[37457,["$3","$4"],"default"]
+7:I[95647,["$3","$4"],"default"]
+e:I[97367,["$3","$4"],"OutletBoundary"]
+f:"$Sreact.suspense"
+12:"ViewportBoundary"
+13:I[97367,["$3","$4"],"$12"]
+14:"MetadataBoundary"
+15:I[97367,["$3","$4"],"$14"]
+:HL["/_next/static/chunks/3dur1a1e_w832.css","style"]
+2:T46a,{"@context":"https://schema.org","@type":"NailSalon","@id":"https://queennailswaxhaw.com/#nail-salon","name":"Queen Nails Spa","url":"https://queennailswaxhaw.com","image":"https://queennailswaxhaw.com/images/about-us/woman-showing-floral-manicure-with-rose-nail-art-garden.jpg","description":"A refined nail salon offering manicures, spa pedicures, waxing, and nail enhancements in Waxhaw, North Carolina.","telephone":"+1-704-243-4698","priceRange":"$$","address":{"@type":"PostalAddress","streetAddress":"3905 Providence Road South, Suite D","addressLocality":"Waxhaw","addressRegion":"NC","postalCode":"28173","addressCountry":"US"},"areaServed":{"@type":"City","name":"Waxhaw, North Carolina"},"hasMap":"https://maps.google.com/?cid=12497902247688058167","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"09:30","closes":"19:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Sunday","opens":"10:30","closes":"17:00"}],"sameAs":["https://www.facebook.com/queennailswaxhaw/","https://www.instagram.com/bareluxenailspa_waxhawnc/"]}9:X
+c:X
+c:C
+d:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":"$0:t:t:d:r:props:children:1:props:children:props:children:1:props:notFound:0:1:props:style","children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":"$0:t:t:d:r:props:children:1:props:children:props:children:1:props:notFound:0:1:props:children:props:children:1:props:style","children":404}],["$","div",null,{"style":"$0:t:t:d:r:props:children:1:props:children:props:children:1:props:notFound:0:1:props:children:props:children:2:props:style","children":["$","h2",null,{"style":"$0:t:t:d:r:props:children:1:props:children:props:children:1:props:notFound:0:1:props:children:props:children:2:props:children:props:style","children":"This page could not be found."}]}]]}]}]],null,["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]]}],"p":"$@11","v":null,"s":"$9"}}]]
+a:[["children",{"s":"/_not-found","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$c","s":"$9"},"c":"$Qd"}]]
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3dur1a1e_w832.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/0y97v6iji5fw8.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/0byejz0vaftby.js","async":true}]],["$","html",null,{"lang":"en","className":"LcmucW_variable wXmNBW_variable","children":["$","body",null,{"children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2"}}],["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}],["$","$L7",null,{}]]}]}]]}],"p":"$@8","v":null,"s":"$9"},"c":"$Qa"},"h":{"r":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L13",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L15",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$f",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Luxury Nail Salon in Waxhaw, NC | Queen Nails Spa"}],["$","meta","1",{"name":"description","content":"Discover refined manicures, spa pedicures, waxing, and nail care at Queen Nails Spa in Waxhaw, North Carolina."}],["$","meta","2",{"name":"application-name","content":"Queen Nails Spa"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","meta","5",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","meta","6",{"name":"category","content":"beauty"}],["$","link","7",{"rel":"canonical","href":"https://queennailswaxhaw.com/"}],["$","meta","8",{"name":"format-detection","content":"telephone=no, address=no, email=no"}],["$","meta","9",{"property":"og:title","content":"Luxury Nail Salon in Waxhaw, NC | Queen Nails Spa"}],"$L16","$L17","$L18","$L19","$L1a","$L1b","$L1c","$L1d","$L1e","$L1f","$L20","$L21","$L22","$L23","$L24","$L25"]}]}],null]}],"$L26"]}],"p":"$@27","v":null,"s":"$9"}},"a":"$@28","u":"$@29","b":"P85VM9MTbNxBXB7rN2qZG"}
+10:null
+16:["$","meta","10",{"property":"og:description","content":"Refined manicures, spa pedicures, waxing, and thoughtful nail care in Waxhaw, North Carolina."}]
+17:["$","meta","11",{"property":"og:url","content":"https://queennailswaxhaw.com/"}]
+18:["$","meta","12",{"property":"og:site_name","content":"Queen Nails Spa"}]
+19:["$","meta","13",{"property":"og:locale","content":"en_US"}]
+1a:["$","meta","14",{"property":"og:image","content":"https://queennailswaxhaw.com/images/about-us/woman-showing-floral-manicure-with-rose-nail-art-garden.jpg"}]
+1b:["$","meta","15",{"property":"og:image:width","content":"1200"}]
+1c:["$","meta","16",{"property":"og:image:height","content":"800"}]
+1d:["$","meta","17",{"property":"og:image:alt","content":"Floral manicure by Queen Nails Spa in Waxhaw, North Carolina"}]
+1e:["$","meta","18",{"property":"og:type","content":"website"}]
+1f:["$","meta","19",{"name":"twitter:card","content":"summary_large_image"}]
+20:["$","meta","20",{"name":"twitter:title","content":"Queen Nails Spa | Waxhaw, NC"}]
+21:["$","meta","21",{"name":"twitter:description","content":"Refined nail care and spa rituals in Waxhaw, North Carolina."}]
+22:["$","meta","22",{"name":"twitter:image","content":"https://queennailswaxhaw.com/images/about-us/woman-showing-floral-manicure-with-rose-nail-art-garden.jpg"}]
+23:["$","meta","23",{"name":"twitter:image:alt","content":"Floral manicure by Queen Nails Spa in Waxhaw, North Carolina"}]
+24:["$","meta","24",{"name":"twitter:image:width","content":"1200"}]
+25:["$","meta","25",{"name":"twitter:image:height","content":"800"}]
+26:["$","meta",null,{"name":"next-size-adjust","content":""}]
+9:300
+29:true
+9:C
+28:0
+b:"$undefined"
+8:"$undefined"
+27:"$undefined"
+11:"$undefined"

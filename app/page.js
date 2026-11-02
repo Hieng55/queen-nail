@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import AboutSection from "../components/AboutSection";
 import ServicesSection from "../components/ServicesSection";
 import CustomerReviewsSection from "../components/CustomerReviewsSection";
+import GallerySection from "../components/GallerySection";
 import ContactSection from "../components/ContactSection";
 import Footer from "../components/Footer";
 
@@ -15,6 +16,7 @@ export default function HomePage() {
         <AboutSection />
         <ServicesSection />
         <CustomerReviewsSection />
+        <GallerySection />
         <ContactSection />
       </main>
       <Footer />

@@ -31,7 +31,7 @@ export default function AboutSection({ asPageHeading = false }) {
 
         <div className="about__content">
           <p className="about__eyebrow">Our Story</p>
-          <Heading id="about-title">Beauty should feel <em>personal.</em></Heading>
+          <Heading id="about-title">{asPageHeading ? <>About Queen Nails Spa <em>in Waxhaw.</em></> : <>Beauty should feel <em>personal.</em></>}</Heading>
           <div className="about__rule" aria-hidden="true"><span /></div>
           <p className="about__lead">
             Queen Nails Spa brings thoughtful nail care and refined artistry together in a calm, welcoming setting.

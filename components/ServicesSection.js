@@ -75,7 +75,6 @@ function PriceRows({ rows }) {
 
 export default function ServicesSection({ asPageHeading = false }) {
   const [active, setActive] = useState("pedicure");
-  const group = serviceGroups.find((item) => item.id === active);
   const Heading = asPageHeading ? "h1" : "h2";
 
   return (
@@ -85,7 +84,7 @@ export default function ServicesSection({ asPageHeading = false }) {
       <div className="services__inner">
         <header className="services__header">
           <p className="services__eyebrow">The Queen Nails Menu</p>
-          <Heading id="services-title">Rituals of <em>care & beauty.</em></Heading>
+          <Heading id="services-title">{asPageHeading ? <>Nail services & prices <em>in Waxhaw.</em></> : <>Rituals of <em>care & beauty.</em></>}</Heading>
           <p>Thoughtfully designed treatments, refined techniques and beautiful results—select the experience that feels right for you.</p>
         </header>
 
@@ -97,7 +96,8 @@ export default function ServicesSection({ asPageHeading = false }) {
           ))}
         </div>
 
-        <div className="services__panel" role="tabpanel" id={`panel-${group.id}`} aria-labelledby={`tab-${group.id}`} key={group.id}>
+        {serviceGroups.map((group) => (
+          <div className="services__panel" role="tabpanel" id={`panel-${group.id}`} aria-labelledby={`tab-${group.id}`} hidden={active !== group.id} key={group.id}>
           <div className="services__panel-head">
             <div><p>Curated Service Menu</p><h3>{group.label}</h3></div>
             <p>{group.note}</p>
@@ -126,7 +126,8 @@ export default function ServicesSection({ asPageHeading = false }) {
             <span>Gel add-on to spa pedicure +$15</span>
             <a href="/contact">Reserve your ritual <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6" /></svg></a>
           </div>
-        </div>
+          </div>
+        ))}
       </div>
     </section>
   );

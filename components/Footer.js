@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const bookingUrl = "https://www.lldtek.org/salon/appt/VGtOZk1USTFNRE09";
+const bookingUrl = "https://book.gocheckin.net/v3/nails/bare-luxe-nail-spa-21632/choose-service?key=8UXEgGI3-bR-PqpMeHF_co-93";
 
 function Arrow() {
   return <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6" /></svg>;
@@ -37,6 +37,7 @@ export default function Footer() {
               <a href="/">Home</a>
               <a href="/about">About Us</a>
               <a href="/services">Services</a>
+              <a href="/gallery">Gallery</a>
               <a href="/reviews">Reviews</a>
               <a href="/contact">Contact</a>
             </div>

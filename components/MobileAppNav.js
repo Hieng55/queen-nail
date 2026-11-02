@@ -9,7 +9,7 @@ import { useState } from "react";
 const links = [
   { label: "Home", href: "/", icon: Home, activeIcon: HouseHeart },
   { label: "Services", href: "/services", icon: List, activeIcon: ListChecks },
-  { label: "Book", href: "https://www.lldtek.org/salon/appt/VGtOZk1USTFNRE09", external: true, featured: true, icon: Calendar, activeIcon: CalendarCheck },
+  { label: "Book", href: "https://book.gocheckin.net/v3/nails/bare-luxe-nail-spa-21632/choose-service?key=8UXEgGI3-bR-PqpMeHF_co-93", external: true, featured: true, icon: Calendar, activeIcon: CalendarCheck },
   { label: "Reviews", href: "/reviews", icon: MessageSquare, activeIcon: MessageSquareHeart },
   { label: "Contact", href: "/contact", icon: Phone, activeIcon: PhoneCall },
 ];

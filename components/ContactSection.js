@@ -1,4 +1,4 @@
-const bookingUrl = "https://www.lldtek.org/salon/appt/VGtOZk1USTFNRE09";
+const bookingUrl = "https://book.gocheckin.net/v3/nails/bare-luxe-nail-spa-21632/choose-service?key=8UXEgGI3-bR-PqpMeHF_co-93";
 const mapsUrl = "https://maps.google.com/?cid=12497902247688058167";
 
 function Arrow() {
@@ -14,7 +14,7 @@ export default function ContactSection({ asPageHeading = false }) {
       <div className="contact__inner">
         <header className="contact__header">
           <p className="contact__eyebrow">Contact Us</p>
-          <Heading id="contact-title">Your next ritual <em>starts here.</em></Heading>
+          <Heading id="contact-title">{asPageHeading ? <>Contact Queen Nails Spa <em>in Waxhaw.</em></> : <>Your next ritual <em>starts here.</em></>}</Heading>
           <p>Reserve online, call the salon, or stop by Queen Nails in Waxhaw.</p>
         </header>
 

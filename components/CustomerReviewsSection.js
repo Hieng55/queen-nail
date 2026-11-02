@@ -59,8 +59,8 @@ export default function CustomerReviewsSection({ asPageHeading = false }) {
       <div className="reviews__glow" aria-hidden="true" />
       <div className="reviews__inner">
         <header className="reviews__header">
-          <div><p className="reviews__eyebrow">Customer Reviews</p><Heading id="reviews-title">Kind words from <em>our guests.</em></Heading></div>
-          <div className="reviews__summary" aria-label="4.3 out of 5 from 152 public reviews"><strong>4.3</strong><div><span aria-hidden="true">★★★★☆</span><p>152 public reviews</p></div></div>
+          <div><p className="reviews__eyebrow">Customer Reviews</p><Heading id="reviews-title">{asPageHeading ? <>Queen Nails Spa reviews <em>in Waxhaw.</em></> : <>Kind words from <em>our guests.</em></>}</Heading></div>
+          <div className="reviews__summary" aria-label="4.2 out of 5 from 119 reviews"><strong>4.2</strong><div><span aria-hidden="true">★★★★☆</span><p>119 reviews</p></div></div>
         </header>
 
         <div className="reviews__carousel" onMouseEnter={() => setPaused(true)} onMouseLeave={() => setPaused(false)} onFocusCapture={() => setPaused(true)} onBlurCapture={(event) => { if (!event.currentTarget.contains(event.relatedTarget)) setPaused(false); }} aria-roledescription="carousel" aria-label="Customer review highlights">
