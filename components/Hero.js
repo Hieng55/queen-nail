@@ -49,8 +49,8 @@ export default function Hero() {
 
       <div className="hero__content">
         <p className="hero__eyebrow"><span /> Queen Nails Spa <span /></p>
-        <h1 id="hero-title">Nail Salon in Waxhaw, NC<br /><em>Where Beauty Reigns</em></h1>
-        <p className="hero__copy">Manicures, spa pedicures, nail enhancements, and waxing at Queen Nails Spa in Waxhaw, North Carolina.</p>
+        <h1 id="hero-title">Nail Salon in<br /><em>Waxhaw, NC</em></h1>
+        <p className="hero__copy">Manicures, spa pedicures, nail enhancements, and waxing in a calm, welcoming setting.</p>
         <div className="hero__actions">
           <a className="hero__cta" href="https://book.gocheckin.net/v3/nails/bare-luxe-nail-spa-21632/choose-service?key=8UXEgGI3-bR-PqpMeHF_co-93" target="_blank" rel="noopener noreferrer">
             Book Appointment
