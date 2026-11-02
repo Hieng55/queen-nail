@@ -1,6 +1,7 @@
 import { Forum, Jost } from "next/font/google";
 import "./globals.css";
 import MobileAppNav from "../components/MobileAppNav";
+import WelcomePopup from "../components/WelcomePopup";
 import { business, siteUrl } from "../lib/site";
 
 const jost = Jost({
@@ -109,6 +110,7 @@ export default function RootLayout({ children }) {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
         />
+        <WelcomePopup />
         {children}
         <MobileAppNav />
       </body>

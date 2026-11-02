@@ -1,58 +1,59 @@
 1:"$Sreact.fragment"
-3:"/_next/static/chunks/0y97v6iji5fw8.js"
-4:"/_next/static/chunks/0byejz0vaftby.js"
-5:I[39756,["$3","$4"],"default"]
-6:I[37457,["$3","$4"],"default"]
-7:I[95647,["$3","$4"],"default"]
-e:"/_next/static/chunks/1y0_fq8g77_ps.js"
-f:I[25954,["$3","$4","$e"],"default"]
-10:I[35959,["$3","$4","$e"],"default"]
-11:I[5500,["$3","$4","$e"],"Image"]
-19:"ViewportBoundary"
-1a:I[97367,["$3","$4"],"$19"]
-1b:"MetadataBoundary"
-1c:I[97367,["$3","$4"],"$1b"]
-1d:"$Sreact.suspense"
-:HL["/_next/static/chunks/2p5dxiydzbpe-.css","style"]
-2:T46a,{"@context":"https://schema.org","@type":"NailSalon","@id":"https://queennailswaxhaw.com/#nail-salon","name":"Queen Nails Spa","url":"https://queennailswaxhaw.com","image":"https://queennailswaxhaw.com/images/about-us/woman-showing-floral-manicure-with-rose-nail-art-garden.jpg","description":"A refined nail salon offering manicures, spa pedicures, waxing, and nail enhancements in Waxhaw, North Carolina.","telephone":"+1-704-243-4698","priceRange":"$$","address":{"@type":"PostalAddress","streetAddress":"3905 Providence Road South, Suite D","addressLocality":"Waxhaw","addressRegion":"NC","postalCode":"28173","addressCountry":"US"},"areaServed":{"@type":"City","name":"Waxhaw, North Carolina"},"hasMap":"https://maps.google.com/?cid=12497902247688058167","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"09:30","closes":"19:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Sunday","opens":"10:30","closes":"17:00"}],"sameAs":["https://www.facebook.com/queennailswaxhaw/","https://www.instagram.com/bareluxenailspa_waxhawnc/"]}9:X
-c:X
-c:C
-d:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[[["$","$Lf",null,{}],["$","main",null,{"children":["$","$L10",null,{"asPageHeading":true}]}],["$","footer",null,{"className":"site-footer","children":["$","div",null,{"className":"site-footer__inner","children":[["$","div",null,{"className":"site-footer__cta","children":[["$","div",null,{"children":[["$","p",null,{"children":"The finishing touch"}],["$","h2",null,{"children":"Ready for your next set?"}]]}],["$","a",null,{"href":"https://book.gocheckin.net/v3/nails/bare-luxe-nail-spa-21632/choose-service?key=8UXEgGI3-bR-PqpMeHF_co-93","target":"_blank","rel":"noopener noreferrer","children":["Reserve your ritual ",["$","svg",null,{"viewBox":"0 0 24 24","aria-hidden":"true","children":["$","path",null,{"d":"M5 12h13M13 6l6 6-6 6"}]}]]}]]}],["$","div",null,{"className":"site-footer__main","children":[["$","div",null,{"className":"site-footer__brand","children":[["$","a",null,{"href":"/","aria-label":"Queen Nails Spa — Home","children":["$","$L11",null,{"src":"/images/logo/logo (5).png","alt":"Queen Nails Spa","width":465,"height":350}]}],["$","p",null,{"children":"Thoughtful nail care, refined artistry, and time made just for you."}],"$L12"]}],"$L13","$L14"]}],"$L15"]}]}]],["$L16"],"$L17"]}],"p":"$@18","v":null,"s":"$9"}}]]
-a:[["children",{"s":"services","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$c","s":"$9"},"c":"$Qd"}]]
-0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2p5dxiydzbpe-.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/0y97v6iji5fw8.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/0byejz0vaftby.js","async":true}]],["$","html",null,{"lang":"en","className":"LcmucW_variable wXmNBW_variable","children":["$","body",null,{"children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2"}}],["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}],["$","$L7",null,{}]]}]}]]}],"p":"$@8","v":null,"s":"$9"},"c":"$Qa"},"h":{"r":["$","$1","h",{"children":[null,["$","$L1a",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L1c",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1d",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Nail Services & Prices in Waxhaw, NC | Queen Nails Spa"}],["$","meta","1",{"name":"description","content":"Explore manicure, spa pedicure, kids, waxing, nail enhancement, and add-on services at Queen Nails Spa in Waxhaw, NC."}],["$","meta","2",{"name":"application-name","content":"Queen Nails Spa"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","meta","5",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","meta","6",{"name":"category","content":"beauty"}],["$","link","7",{"rel":"canonical","href":"https://queennailswaxhaw.com/services/"}],["$","meta","8",{"name":"format-detection","content":"telephone=no, address=no, email=no"}],["$","meta","9",{"property":"og:title","content":"Nail Services & Prices in Waxhaw, NC"}],"$L1e","$L1f","$L20","$L21","$L22","$L23","$L24","$L25","$L26","$L27","$L28","$L29","$L2a","$L2b","$L2c"]}]}],null]}],"$L2d"]}],"p":"$@2e","v":null,"s":"$9"}},"a":"$@2f","u":"$@30","b":"pqnm7HIf0JuZj2oEnejRv"}
-31:I[97367,["$3","$4"],"OutletBoundary"]
-33:I[27201,["$3","$4"],"IconMark"]
+3:"/_next/static/chunks/2guquxxmuk4qk.js"
+4:"/_next/static/chunks/3k5d-44u2mxcb.js"
+5:I[64418,["$3","$4"],"default"]
+6:I[39756,["$3","$4"],"default"]
+7:I[37457,["$3","$4"],"default"]
+8:I[95647,["$3","$4"],"default"]
+f:"/_next/static/chunks/2kwdwp1iv9gog.js"
+10:I[25954,["$3","$4","$f"],"default"]
+11:I[35959,["$3","$4","$f"],"default"]
+12:I[5500,["$3","$4","$f"],"Image"]
+1a:"ViewportBoundary"
+1b:I[97367,["$3","$4"],"$1a"]
+1c:"MetadataBoundary"
+1d:I[97367,["$3","$4"],"$1c"]
+1e:"$Sreact.suspense"
+:HL["/_next/static/chunks/2dtd00d22-mnm.css","style"]
+2:T46a,{"@context":"https://schema.org","@type":"NailSalon","@id":"https://queennailswaxhaw.com/#nail-salon","name":"Queen Nails Spa","url":"https://queennailswaxhaw.com","image":"https://queennailswaxhaw.com/images/about-us/woman-showing-floral-manicure-with-rose-nail-art-garden.jpg","description":"A refined nail salon offering manicures, spa pedicures, waxing, and nail enhancements in Waxhaw, North Carolina.","telephone":"+1-704-243-4698","priceRange":"$$","address":{"@type":"PostalAddress","streetAddress":"3905 Providence Road South, Suite D","addressLocality":"Waxhaw","addressRegion":"NC","postalCode":"28173","addressCountry":"US"},"areaServed":{"@type":"City","name":"Waxhaw, North Carolina"},"hasMap":"https://maps.google.com/?cid=12497902247688058167","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"09:30","closes":"19:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Sunday","opens":"10:30","closes":"17:00"}],"sameAs":["https://www.facebook.com/queennailswaxhaw/","https://www.instagram.com/bareluxenailspa_waxhawnc/"]}a:X
+d:X
+d:C
+e:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[[["$","$L10",null,{}],["$","main",null,{"children":["$","$L11",null,{"asPageHeading":true}]}],["$","footer",null,{"className":"site-footer","children":["$","div",null,{"className":"site-footer__inner","children":[["$","div",null,{"className":"site-footer__cta","children":[["$","div",null,{"children":[["$","p",null,{"children":"The finishing touch"}],["$","h2",null,{"children":"Ready for your next set?"}]]}],["$","a",null,{"href":"https://book.gocheckin.net/v3/nails/bare-luxe-nail-spa-21632/choose-service?key=8UXEgGI3-bR-PqpMeHF_co-93","target":"_blank","rel":"noopener noreferrer","children":["Reserve your ritual ",["$","svg",null,{"viewBox":"0 0 24 24","aria-hidden":"true","children":["$","path",null,{"d":"M5 12h13M13 6l6 6-6 6"}]}]]}]]}],["$","div",null,{"className":"site-footer__main","children":[["$","div",null,{"className":"site-footer__brand","children":[["$","a",null,{"href":"/","aria-label":"Queen Nails Spa — Home","children":["$","$L12",null,{"src":"/images/logo/logo (5).png","alt":"Queen Nails Spa","width":465,"height":350}]}],["$","p",null,{"children":"Thoughtful nail care, refined artistry, and time made just for you."}],"$L13"]}],"$L14","$L15"]}],"$L16"]}]}]],["$L17"],"$L18"]}],"p":"$@19","v":null,"s":"$a"}}]]
+b:[["children",{"s":"services","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}]}]]}],"p":"$@c","v":"$d","s":"$a"},"c":"$Qe"}]]
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2dtd00d22-mnm.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/2guquxxmuk4qk.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/3k5d-44u2mxcb.js","async":true}]],["$","html",null,{"lang":"en","className":"LcmucW_variable wXmNBW_variable","children":["$","body",null,{"children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2"}}],["$","$L5",null,{}],["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}],["$","$L8",null,{}]]}]}]]}],"p":"$@9","v":null,"s":"$a"},"c":"$Qb"},"h":{"r":["$","$1","h",{"children":[null,["$","$L1b",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L1d",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1e",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Nail Services & Prices in Waxhaw, NC | Queen Nails Spa"}],["$","meta","1",{"name":"description","content":"Explore manicure, spa pedicure, kids, waxing, nail enhancement, and add-on services at Queen Nails Spa in Waxhaw, NC."}],["$","meta","2",{"name":"application-name","content":"Queen Nails Spa"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","meta","5",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","meta","6",{"name":"category","content":"beauty"}],["$","link","7",{"rel":"canonical","href":"https://queennailswaxhaw.com/services/"}],["$","meta","8",{"name":"format-detection","content":"telephone=no, address=no, email=no"}],["$","meta","9",{"property":"og:title","content":"Nail Services & Prices in Waxhaw, NC"}],"$L1f","$L20","$L21","$L22","$L23","$L24","$L25","$L26","$L27","$L28","$L29","$L2a","$L2b","$L2c","$L2d"]}]}],null]}],"$L2e"]}],"p":"$@2f","v":null,"s":"$a"}},"a":"$@30","u":"$@31","b":"SJLuTrJdK2ClnPedqrurb"}
+32:I[97367,["$3","$4"],"OutletBoundary"]
+34:I[27201,["$3","$4"],"IconMark"]
 :HL["/icons/brands/facebook.svg","image"]
 :HL["/icons/brands/instagram.svg","image"]
 :HL["/icons/brands/google-maps.svg","image"]
-12:["$","div",null,{"className":"site-footer__socials","children":[["$","a",null,{"href":"https://www.facebook.com/queennailswaxhaw/","target":"_blank","rel":"noopener noreferrer","aria-label":"Facebook","children":["$","img",null,{"src":"/icons/brands/facebook.svg","alt":""}]}],["$","a",null,{"href":"https://www.instagram.com/bareluxenailspa_waxhawnc/","target":"_blank","rel":"noopener noreferrer","aria-label":"Instagram","children":["$","img",null,{"src":"/icons/brands/instagram.svg","alt":""}]}],["$","a",null,{"href":"https://maps.google.com/?cid=12497902247688058167","target":"_blank","rel":"noopener noreferrer","aria-label":"Google Maps","children":["$","img",null,{"src":"/icons/brands/google-maps.svg","alt":""}]}]]}]
-13:["$","nav",null,{"className":"site-footer__nav","aria-label":"Footer navigation","children":[["$","p",null,{"children":"Explore"}],["$","div",null,{"children":[["$","a",null,{"href":"/","children":"Home"}],["$","a",null,{"href":"/about","children":"About Us"}],["$","a",null,{"href":"/services","children":"Services"}],["$","a",null,{"href":"/gallery","children":"Gallery"}],["$","a",null,{"href":"/reviews","children":"Reviews"}],["$","a",null,{"href":"/contact","children":"Contact"}]]}]]}]
-14:["$","div",null,{"className":"site-footer__visit","children":[["$","p",null,{"children":"Visit Queen Nails"}],["$","address",null,{"children":["3905 Providence Road South",["$","br",null,{}],"Suite D, Waxhaw, NC 28173"]}],["$","a",null,{"href":"tel:+17042434698","children":"(704) 243-4698"}],["$","small",null,{"children":["Tuesday – Saturday: 9:30 AM – 7 PM",["$","br",null,{}],"Sunday: 10:30 AM – 5 PM"]}]]}]
-15:["$","div",null,{"className":"site-footer__bottom","children":[["$","p",null,{"children":"© 2026 Queen Nails Spa. All rights reserved."}],["$","a",null,{"href":"#home","children":["Back to top ",["$","span",null,{"aria-hidden":"true","children":"↑"}]]}]]}]
-16:["$","script","script-0",{"src":"/_next/static/chunks/1y0_fq8g77_ps.js","async":true}]
-17:["$","$L31",null,{"children":["$","$1d",null,{"name":"Next.MetadataOutlet","children":"$@32"}]}]
-1e:["$","meta","10",{"property":"og:description","content":"Explore manicure, spa pedicure, kids, waxing, nail enhancement, and add-on services at Queen Nails Spa in Waxhaw, NC."}]
-1f:["$","meta","11",{"property":"og:url","content":"https://queennailswaxhaw.com/services/"}]
-20:["$","meta","12",{"property":"og:site_name","content":"Queen Nails Spa"}]
-21:["$","meta","13",{"property":"og:locale","content":"en_US"}]
-22:["$","meta","14",{"property":"og:image","content":"https://queennailswaxhaw.com/images/about-us/woman-showing-floral-manicure-with-rose-nail-art-garden.jpg"}]
-23:["$","meta","15",{"property":"og:image:width","content":"1200"}]
-24:["$","meta","16",{"property":"og:image:height","content":"800"}]
-25:["$","meta","17",{"property":"og:image:alt","content":"Floral manicure by Queen Nails Spa in Waxhaw, North Carolina"}]
-26:["$","meta","18",{"property":"og:type","content":"website"}]
-27:["$","meta","19",{"name":"twitter:card","content":"summary_large_image"}]
-28:["$","meta","20",{"name":"twitter:title","content":"Nail Services & Prices in Waxhaw, NC"}]
-29:["$","meta","21",{"name":"twitter:description","content":"Explore manicure, spa pedicure, kids, waxing, nail enhancement, and add-on services at Queen Nails Spa in Waxhaw, NC."}]
-2a:["$","meta","22",{"name":"twitter:image","content":"https://queennailswaxhaw.com/images/about-us/woman-showing-floral-manicure-with-rose-nail-art-garden.jpg"}]
-2b:["$","link","23",{"rel":"icon","href":"/icon.png?icon.1_ujkpvv8zb52.png","sizes":"512x512","type":"image/png"}]
-2c:["$","$L33","24",{}]
-2d:["$","meta",null,{"name":"next-size-adjust","content":""}]
-9:300
-32:null
-30:true
-9:C
-2f:0
-b:"$undefined"
-8:"$undefined"
-2e:"$undefined"
-18:"$undefined"
+13:["$","div",null,{"className":"site-footer__socials","children":[["$","a",null,{"href":"https://www.facebook.com/queennailswaxhaw/","target":"_blank","rel":"noopener noreferrer","aria-label":"Facebook","children":["$","img",null,{"src":"/icons/brands/facebook.svg","alt":""}]}],["$","a",null,{"href":"https://www.instagram.com/bareluxenailspa_waxhawnc/","target":"_blank","rel":"noopener noreferrer","aria-label":"Instagram","children":["$","img",null,{"src":"/icons/brands/instagram.svg","alt":""}]}],["$","a",null,{"href":"https://maps.google.com/?cid=12497902247688058167","target":"_blank","rel":"noopener noreferrer","aria-label":"Google Maps","children":["$","img",null,{"src":"/icons/brands/google-maps.svg","alt":""}]}]]}]
+14:["$","nav",null,{"className":"site-footer__nav","aria-label":"Footer navigation","children":[["$","p",null,{"children":"Explore"}],["$","div",null,{"children":[["$","a",null,{"href":"/","children":"Home"}],["$","a",null,{"href":"/about","children":"About Us"}],["$","a",null,{"href":"/services","children":"Services"}],["$","a",null,{"href":"/gallery","children":"Gallery"}],["$","a",null,{"href":"/reviews","children":"Reviews"}],["$","a",null,{"href":"/contact","children":"Contact"}]]}]]}]
+15:["$","div",null,{"className":"site-footer__visit","children":[["$","p",null,{"children":"Visit Queen Nails"}],["$","address",null,{"children":["3905 Providence Road South",["$","br",null,{}],"Suite D, Waxhaw, NC 28173"]}],["$","a",null,{"href":"tel:+17042434698","children":"(704) 243-4698"}],["$","small",null,{"children":["Tuesday – Saturday: 9:30 AM – 7 PM",["$","br",null,{}],"Sunday: 10:30 AM – 5 PM"]}]]}]
+16:["$","div",null,{"className":"site-footer__bottom","children":[["$","p",null,{"children":"© 2026 Queen Nails Spa. All rights reserved."}],["$","a",null,{"href":"#home","children":["Back to top ",["$","span",null,{"aria-hidden":"true","children":"↑"}]]}]]}]
+17:["$","script","script-0",{"src":"/_next/static/chunks/2kwdwp1iv9gog.js","async":true}]
+18:["$","$L32",null,{"children":["$","$1e",null,{"name":"Next.MetadataOutlet","children":"$@33"}]}]
+1f:["$","meta","10",{"property":"og:description","content":"Explore manicure, spa pedicure, kids, waxing, nail enhancement, and add-on services at Queen Nails Spa in Waxhaw, NC."}]
+20:["$","meta","11",{"property":"og:url","content":"https://queennailswaxhaw.com/services/"}]
+21:["$","meta","12",{"property":"og:site_name","content":"Queen Nails Spa"}]
+22:["$","meta","13",{"property":"og:locale","content":"en_US"}]
+23:["$","meta","14",{"property":"og:image","content":"https://queennailswaxhaw.com/images/about-us/woman-showing-floral-manicure-with-rose-nail-art-garden.jpg"}]
+24:["$","meta","15",{"property":"og:image:width","content":"1200"}]
+25:["$","meta","16",{"property":"og:image:height","content":"800"}]
+26:["$","meta","17",{"property":"og:image:alt","content":"Floral manicure by Queen Nails Spa in Waxhaw, North Carolina"}]
+27:["$","meta","18",{"property":"og:type","content":"website"}]
+28:["$","meta","19",{"name":"twitter:card","content":"summary_large_image"}]
+29:["$","meta","20",{"name":"twitter:title","content":"Nail Services & Prices in Waxhaw, NC"}]
+2a:["$","meta","21",{"name":"twitter:description","content":"Explore manicure, spa pedicure, kids, waxing, nail enhancement, and add-on services at Queen Nails Spa in Waxhaw, NC."}]
+2b:["$","meta","22",{"name":"twitter:image","content":"https://queennailswaxhaw.com/images/about-us/woman-showing-floral-manicure-with-rose-nail-art-garden.jpg"}]
+2c:["$","link","23",{"rel":"icon","href":"/icon.png?icon.1_ujkpvv8zb52.png","sizes":"512x512","type":"image/png"}]
+2d:["$","$L34","24",{}]
+2e:["$","meta",null,{"name":"next-size-adjust","content":""}]
+a:300
+33:null
+31:true
+a:C
+30:0
+c:"$undefined"
+9:"$undefined"
+2f:"$undefined"
+19:"$undefined"

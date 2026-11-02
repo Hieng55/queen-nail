@@ -2,6 +2,16 @@
 * { box-sizing:border-box; }
 html { scroll-behavior:smooth; }
 body { margin:0; overflow-x:hidden; color:var(--cream); background:var(--navy); font-family:var(--font-jost), sans-serif; }
+.welcome-popup { position:fixed; z-index:1000; inset:0; display:grid; place-items:center; padding:clamp(18px,4vw,48px); background:rgba(0,0,0,.82); backdrop-filter:blur(9px); -webkit-backdrop-filter:blur(9px); animation:welcome-popup-fade .24s ease both; }
+.welcome-popup__dialog { position:relative; width:min(600px,82vw,calc(80svh - 38.4px)); aspect-ratio:4/5; background:#0b0a07; border:1px solid rgba(241,217,139,.55); box-shadow:0 30px 100px rgba(0,0,0,.78),0 0 0 7px rgba(201,168,78,.08); animation:welcome-popup-rise .34s cubic-bezier(.22,1,.36,1) both; }
+.welcome-popup__image { display:block; width:100%; height:100%; object-fit:contain; }
+.welcome-popup__close { position:absolute; top:-17px; right:-17px; width:46px; height:46px; display:grid; place-items:center; padding:0; color:#171108; background:linear-gradient(135deg,#f6e5a7,#c49a3e); border:1px solid #f1d98b; border-radius:50%; box-shadow:0 8px 24px rgba(0,0,0,.5); cursor:pointer; font:300 32px/1 Arial,sans-serif; transition:transform .2s ease,filter .2s ease; }
+.welcome-popup__close span { transform:translateY(-1px); }
+.welcome-popup__close:focus-visible { outline:3px solid #fff5cc; outline-offset:4px; }
+@media (hover:hover) and (pointer:fine) { .welcome-popup__close:hover { transform:scale(1.07); filter:brightness(1.08); } }
+@keyframes welcome-popup-fade { from { opacity:0; } to { opacity:1; } }
+@keyframes welcome-popup-rise { from { opacity:0; transform:translateY(18px) scale(.96); } to { opacity:1; transform:none; } }
+@media (max-width:640px) { .welcome-popup { padding:20px; }.welcome-popup__dialog { width:min(90vw,480px,calc(80svh - 51.2px)); }.welcome-popup__close { top:-14px; right:-10px; width:42px; height:42px; font-size:29px; } }
 .site-header { position:relative; z-index:20; border-bottom:1px solid rgba(201,168,78,.55); background:radial-gradient(circle at 50% 120%,rgba(201,168,78,.08),transparent 42%),linear-gradient(90deg,#050505,#11100c 50%,#050505); box-shadow:0 16px 50px rgba(0,0,0,.55); }
 .site-header::after { content:""; position:absolute; left:0; right:0; bottom:4px; height:1px; background:linear-gradient(90deg,transparent,var(--gold),transparent); opacity:.7; }
 .announcement { min-height:34px; display:flex; align-items:center; justify-content:center; gap:15px; border-bottom:1px solid rgba(243,207,114,.18); color:var(--gold-bright); }
