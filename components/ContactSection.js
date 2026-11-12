@@ -1,4 +1,4 @@
-const bookingUrl = "https://book.gocheckin.net/v3/nails/bare-luxe-nail-spa-21632/choose-service?key=8UXEgGI3-bR-PqpMeHF_co-93";
+const bookingUrl = "https://www.facebook.com/queennailsspawh/";
 const mapsUrl = "https://maps.google.com/?cid=12497902247688058167";
 
 function Arrow() {
