@@ -1,4 +1,4 @@
-const bookingUrl = "https://www.facebook.com/queennailsspawh/";
+const bookingUrl = "https://book.gocheckin.net/v3/nails/bare-luxe-nail-spa-21632/choose-service?key=8UXEgGI3-bR-PqpMeHF_co-93";
 const mapsUrl = "https://maps.google.com/?cid=12497902247688058167";
 
 function Arrow() {
@@ -61,7 +61,7 @@ export default function ContactSection({ asPageHeading = false }) {
             <div className="contact__detail contact__detail--social">
               <span>Follow</span>
               <div>
-                <a href="https://www.facebook.com/queennailswaxhaw/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                <a href="https://www.facebook.com/queennailsspawh/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
                   <img src="/icons/brands/facebook.svg" alt="" />
                 </a>
                 <a href="https://www.instagram.com/bareluxenailspa_waxhawnc/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">

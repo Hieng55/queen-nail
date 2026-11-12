@@ -53,7 +53,7 @@ export default function AboutSection({ asPageHeading = false }) {
             <div className="about__socials">
               <p>Follow Queen Nails</p>
               <div>
-                <a href="https://www.facebook.com/queennailswaxhaw/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                <a href="https://www.facebook.com/queennailsspawh/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
                   <img src="/icons/brands/facebook.svg" alt="" />
                 </a>
                 <a href="https://www.instagram.com/bareluxenailspa_waxhawnc/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">

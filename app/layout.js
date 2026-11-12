@@ -97,7 +97,7 @@ const localBusinessSchema = {
     },
   ],
   sameAs: [
-    "https://www.facebook.com/queennailswaxhaw/",
+    "https://www.facebook.com/queennailsspawh/",
     "https://www.instagram.com/bareluxenailspa_waxhawnc/",
   ],
 };

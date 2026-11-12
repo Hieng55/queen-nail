@@ -52,7 +52,7 @@ export default function Hero() {
         <h1 id="hero-title">Nail Salon in<br /><em>Waxhaw, NC</em></h1>
         <p className="hero__copy">Manicures, spa pedicures, nail enhancements, and waxing in a calm, welcoming setting.</p>
         <div className="hero__actions">
-          <a className="hero__cta" href="https://www.facebook.com/queennailsspawh/" target="_blank" rel="noopener noreferrer">
+          <a className="hero__cta" href="https://book.gocheckin.net/v3/nails/bare-luxe-nail-spa-21632/choose-service?key=8UXEgGI3-bR-PqpMeHF_co-93" target="_blank" rel="noopener noreferrer">
             Book Appointment
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6" /></svg>
           </a>
@@ -62,7 +62,7 @@ export default function Hero() {
           </a>
           <div className="hero__socials-mobile" aria-label="Queen Nails social links and location">
             <a href="https://maps.google.com/?cid=12497902247688058167" target="_blank" rel="noopener noreferrer" aria-label="Google Maps"><img src="/icons/brands/google-maps.svg" alt="" /></a>
-            <a href="https://www.facebook.com/queennailswaxhaw/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><img src="/icons/brands/facebook.svg" alt="" /></a>
+            <a href="https://www.facebook.com/queennailsspawh/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><img src="/icons/brands/facebook.svg" alt="" /></a>
             <a href="https://www.instagram.com/bareluxenailspa_waxhawnc/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><img src="/icons/brands/instagram.svg" alt="" /></a>
           </div>
         </div>

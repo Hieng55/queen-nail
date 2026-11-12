@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const bookingUrl = "https://www.facebook.com/queennailsspawh/";
+const bookingUrl = "https://book.gocheckin.net/v3/nails/bare-luxe-nail-spa-21632/choose-service?key=8UXEgGI3-bR-PqpMeHF_co-93";
 
 function Arrow() {
   return <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6" /></svg>;
@@ -25,7 +25,7 @@ export default function Footer() {
             </a>
             <p>Thoughtful nail care, refined artistry, and time made just for you.</p>
             <div className="site-footer__socials">
-              <a href="https://www.facebook.com/queennailswaxhaw/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><img src="/icons/brands/facebook.svg" alt="" /></a>
+              <a href="https://www.facebook.com/queennailsspawh/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><img src="/icons/brands/facebook.svg" alt="" /></a>
               <a href="https://www.instagram.com/bareluxenailspa_waxhawnc/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><img src="/icons/brands/instagram.svg" alt="" /></a>
               <a href="https://maps.google.com/?cid=12497902247688058167" target="_blank" rel="noopener noreferrer" aria-label="Google Maps"><img src="/icons/brands/google-maps.svg" alt="" /></a>
             </div>

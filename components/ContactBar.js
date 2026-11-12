@@ -6,7 +6,7 @@ import { Phone } from "lucide";
 const brandLinks = [
   {
     label: "Facebook",
-    href: "https://www.facebook.com/queennailswaxhaw/",
+    href: "https://www.facebook.com/queennailsspawh/",
     icon: "/icons/brands/facebook.svg",
   },
   {
