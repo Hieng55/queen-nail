@@ -11,7 +11,7 @@ const brandLinks = [
   },
   {
     label: "Instagram",
-    href: "https://www.instagram.com/bareluxenailspa_waxhawnc/",
+    href: "https://www.instagram.com/queennails_waxhawnc/",
     icon: "/icons/brands/instagram.svg",
   },
   {

@@ -63,7 +63,7 @@ export default function Hero() {
           <div className="hero__socials-mobile" aria-label="Queen Nails social links and location">
             <a href="https://maps.google.com/?cid=12497902247688058167" target="_blank" rel="noopener noreferrer" aria-label="Google Maps"><img src="/icons/brands/google-maps.svg" alt="" /></a>
             <a href="https://www.facebook.com/queennailsspawh/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><img src="/icons/brands/facebook.svg" alt="" /></a>
-            <a href="https://www.instagram.com/bareluxenailspa_waxhawnc/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><img src="/icons/brands/instagram.svg" alt="" /></a>
+            <a href="https://www.instagram.com/queennails_waxhawnc/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><img src="/icons/brands/instagram.svg" alt="" /></a>
           </div>
         </div>
       </div>

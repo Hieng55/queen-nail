@@ -64,7 +64,7 @@ export default function ContactSection({ asPageHeading = false }) {
                 <a href="https://www.facebook.com/queennailsspawh/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
                   <img src="/icons/brands/facebook.svg" alt="" />
                 </a>
-                <a href="https://www.instagram.com/bareluxenailspa_waxhawnc/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <a href="https://www.instagram.com/queennails_waxhawnc/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                   <img src="/icons/brands/instagram.svg" alt="" />
                 </a>
               </div>
